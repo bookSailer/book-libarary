@@ -1,36 +1,36 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: BookSailor 도서관
+description: 진행한 도서에 대한 모든 정보를 기록하고 있습니다.
 template: splash
 hero:
   tagline: Congrats on setting up a new Starlight project!
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/bookSailor.svg
   actions:
     - text: Example Guide
       link: /guides/example/
       icon: right-arrow
       variant: primary
     - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      link: https://github.com/bookSailer
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
 ## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card
+    title="개발 도서 정리"
+    icon="pencil"
+  >
+    개발 도서를 정리하고 있습니다.
+  </Card>
+  <Card
+    title="취합"
+    icon="add-document"
+  >
+    진행한 독서 스터디 내용을 모두 취합 했습니다.
+  </Card>
 </CardGrid>

@@ -1,13 +1,12 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "BookSailor 도서관",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/bookSailer",
       },
       sidebar: [
         {
